@@ -17,8 +17,8 @@ close;
 disp("Loading audio files...");
 
 // Read reference and test voice files
-[y1, fs1] = wavread("C:\Users\acer\OneDrive\Attachments\good-morning-242169.mp3";
-[y2, fs2] = wavread("C:\Users\acer\OneDrive\Attachments\intro-noise-131718 (1).mp3");
+[y1, fs1] = wavread("C:\Users\acer\OneDrive\Attachments\good-morning-242169.1.1 96.wav");
+[y2, fs2] = wavread("C:\Users\acer\OneDrive\Attachments\intro-noise-131718 (2) 95.wav");
 
 // Check sampling rates
 if fs1 <> fs2 then
@@ -78,8 +78,8 @@ disp("Waveforms plotted successfully. Close the graph window manually to finish.
 ```
 
 ## OUTPUT: 
-<img width="751" height="607" alt="dtsp" src="https://github.com/user-attachments/assets/9886df8c-ad19-4fad-b17f-c5fc663d01e9" />
-<img width="682" height="571" alt="Screenshot 2025-11-21 233617" src="https://github.com/user-attachments/assets/85f2d2c8-1ef0-4ab5-8757-3d2ea0f68153" />
+<img width="751" height="607" alt="dtsp" src="https://github.com/user-attachments/assets/3667658a-3bcd-4ff1-8475-f645b63a97c9" />
+<img width="682" height="571" alt="Screenshot 2025-11-21 233617" src="https://github.com/user-attachments/assets/10ea54b8-b28b-4d4b-b603-9084cf27aecd" />
 
 
 
